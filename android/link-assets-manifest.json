@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Helvetica-Neue-Font/Helvetica Neue/Helvetica Neue.otf",
+      "sha1": "aa15d490de5ab783aa55e449e03cc68821093e57"
+    },
+    {
+      "path": "src/assets/fonts/Helvetica-Neue-Font/Helvetica Neue/Helvetica Neue.ttf",
+      "sha1": "3eb14a7eb60ece535a875f7a8d2bfc4b2a5d546a"
+    },
+    {
+      "path": "src/assets/fonts/Helvetica-Neue-Font/Helvetica Neue Medium/Helvetica Neue Medium.otf",
+      "sha1": "f016522542e1b967c804e3861d130c84132c0665"
+    },
+    {
+      "path": "src/assets/fonts/Helvetica-Neue-Font/Helvetica Neue Medium/Helvetica Neue Medium.ttf",
+      "sha1": "b5b28fe91c314a44ccd3795f2cc42a0a17e2d720"
+    },
+    {
+      "path": "src/assets/fonts/Helvetica-Neue-Font/Helvetica Neue UltraLight/Helvetica Neue UltraLight.otf",
+      "sha1": "48849a4f4e62f6360610dc794095861e1da033e5"
+    },
+    {
+      "path": "src/assets/fonts/Helvetica-Neue-Font/Helvetica Neue UltraLight/Helvetica Neue UltraLight.ttf",
+      "sha1": "790a1973764c34d2d74568105a50fd1c820d9d89"
+    }
+  ]
+}
