@@ -45,6 +45,26 @@ const mockData = [
   },
 ];
 
+const a = [
+  {
+    name: "Wade Warren",
+    description: "Top Hair Specialist",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    name: "Darrel Steward",
+    description: "Hair Stylist",
+    image:
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    name: "Cody Fisher",
+    description: "Beard Specialist",
+    image: "",
+  },
+];
+
 const SingleServiceCarouselWidget: React.FC<IServiceCarouselWidgetProps> = ({
   title,
   description,
@@ -59,12 +79,6 @@ const SingleServiceCarouselWidget: React.FC<IServiceCarouselWidgetProps> = ({
           resizeMode="cover"
           style={{}}
           className="w-full h-44 rounded-xl">
-          <View
-            className="h-full w-full absolute rounded-xl"
-            style={{
-              backgroundColor: "rgba(75, 75, 75, 0.6)",
-            }}
-          />
           <View className="p-5 h-full flex flex-col justify-between">
             <View>
               <Text className="text-gray-text font-bold text-xl">{title}</Text>

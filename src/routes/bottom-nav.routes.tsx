@@ -28,7 +28,7 @@ const BottomNavigation: FC<IBottomNavigationProps> = () => {
         headerShown: true,
         headerTitleAlign: "center",
         tabBarStyle: {
-          backgroundColor: "#010C1E",
+          backgroundColor: "#1F1F1F",
           height: 90,
           paddingBottom: 0,
           borderTopColor: "#6C6E76",
@@ -55,7 +55,7 @@ const BottomNavigation: FC<IBottomNavigationProps> = () => {
               />
               <Text
                 className={clsx(
-                  "pt-1.5 text-xs font-semibold text-gray-dark",
+                  "pt-1 text-xs font-semibold text-[#888888]",
                   focused && "text-gray-medium",
                 )}>
                 Home
@@ -80,7 +80,7 @@ const BottomNavigation: FC<IBottomNavigationProps> = () => {
               />
               <Text
                 className={clsx(
-                  "pt-1.5 text-xs font-semibold text-gray-dark",
+                  "pt-1 text-xs font-semibold text-[#888888]",
                   focused && "text-gray-medium",
                 )}>
                 Schedule
@@ -105,7 +105,7 @@ const BottomNavigation: FC<IBottomNavigationProps> = () => {
               />
               <Text
                 className={clsx(
-                  "pt-1.5 text-xs font-semibold text-gray-dark",
+                  "pt-1 text-xs font-semibold text-[#888888]",
                   focused && "text-gray-medium",
                 )}>
                 Profile

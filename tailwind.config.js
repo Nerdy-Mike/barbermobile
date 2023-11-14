@@ -32,7 +32,7 @@ module.exports = {
         },
         gray: {
           text: "#ECECEC",
-          gray: "#6C6E76",
+          dark: "#6C6E76",
           medium: "#CCCCCC",
           light: "#2C2C2C",
           veryLight: "#FAFBFF",

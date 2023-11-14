@@ -44,7 +44,7 @@ const data: IServiceCarouselWidgetProps[] = [
   },
 ];
 
-const CarouselCards = () => {
+const ServiceCarousel = () => {
   const [index, setIndex] = React.useState(0);
   const isCarousel = React.useRef();
 
@@ -91,4 +91,4 @@ const CarouselCards = () => {
   );
 };
 
-export default CarouselCards;
+export default ServiceCarousel;

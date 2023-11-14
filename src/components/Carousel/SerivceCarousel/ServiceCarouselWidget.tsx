@@ -29,7 +29,7 @@ const ServiceCarouselWidget: React.FC<IServiceCarouselWidgetProps> = props => {
           <View
             className="h-full w-full absolute rounded-md"
             style={{
-              backgroundColor: "rgba(75, 75, 75, 0.6)",
+              backgroundColor: "rgba(75, 75, 75, 0.5)",
             }}
           />
           <View className="p-5 h-44 flex flex-col justify-between ">
