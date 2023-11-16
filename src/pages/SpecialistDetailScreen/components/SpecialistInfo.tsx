@@ -12,7 +12,7 @@ interface ISpecialistInfoProps {
 const SpecialistInfo: FC<ISpecialistInfoProps> = ({ specialList }) => {
   const { name, description } = specialList;
   return (
-    <View className="flex flex-col justify-start mt-4">
+    <View className="flex flex-col justify-start mt-4 px-4">
       <View className="flex flex-row justify-between items-center">
         <Text className="text-2xl font-bold text-gray-medium">Wade Warren</Text>
         <View className="flex flex-row justify-center items-center gap-2">

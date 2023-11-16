@@ -32,9 +32,10 @@ module.exports = {
         },
         gray: {
           text: "#ECECEC",
+          veryDark: "#4E4F57",
           dark: "#6C6E76",
-          medium: "#CCCCCC",
-          light: "#2C2C2C",
+          medium: "#2C2C2C",
+          light: "#CCCCCC",
           veryLight: "#FAFBFF",
           bottomBar: "#808080",
         },

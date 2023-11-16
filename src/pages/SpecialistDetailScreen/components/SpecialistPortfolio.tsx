@@ -56,7 +56,7 @@ const SpecialistPortfolio = () => {
   );
 
   return (
-    <View className="w-full items-center justify-centerr flex-1 mt-2">
+    <View className="w-full items-center justify-centerr flex-1 mt-2 px-4">
       <Text className="flex flex-row items-start justify-start text-gray-text text-lg font-bold w-full pb-4 pt-2">
         Portfolio
       </Text>

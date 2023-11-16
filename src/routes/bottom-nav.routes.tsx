@@ -12,6 +12,7 @@ import Icon from "react-native-vector-icons/Ionicons";
 import { RootStackParamList } from "../types/navigation.type";
 
 import HomeScreen from "../pages/HomeScreen";
+import ScheduleScreen from "../pages/ScheduleScreen";
 
 interface IBottomNavigationProps {
   navigation: NativeStackNavigationProp<RootStackParamList, "BottomNavigation">;
@@ -67,7 +68,7 @@ const BottomNavigation: FC<IBottomNavigationProps> = () => {
 
       <BottomNav.Screen
         name="ScheduleScreen"
-        component={HomeScreen}
+        component={ScheduleScreen}
         options={() => ({
           headerShown: false,
 
